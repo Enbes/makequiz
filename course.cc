@@ -1,3 +1,7 @@
+///@file course.cc
+///@brief Implementation of functions for the Course class.
+///@author Corbin Dotson
+
 /***********************************************************************
 	The implementation file for course.h, which describes a college
 	course.

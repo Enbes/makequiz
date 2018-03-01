@@ -1,3 +1,7 @@
+///@file college.h
+///@brief The College class.
+///@author Corbin Dotson
+
 //********************
 //Matthew Aberegg
 //Project 3

@@ -1,3 +1,7 @@
+///@file collegemain.cc
+///@brief Runs the program; contains int main.
+///@author Corbin Dotson
+
 /******************************************************
 	This is the main for Project 3, which asks you to 
     build a container that holds a list of college courses.

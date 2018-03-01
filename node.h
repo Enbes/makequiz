@@ -1,3 +1,7 @@
+///@file node.h
+///@brief Contains implementation of a node class and its functions.
+///@author Corbin Dotson
+
 /*************************************************************************
       This file is borrowed heavily from Main/Savitch "Data Structures and
       Other Object Using C++," Chapter 5. It features a node class that 

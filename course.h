@@ -1,3 +1,7 @@
+///@file course.h
+///@brief header file for the course class
+///@author Corbin Dotson
+
 /***********************************************************************8
 	This class stores the three essential features of a completed 
 	college course: the course number, the grade received, and the 

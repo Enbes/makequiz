@@ -1,3 +1,7 @@
+///@file college.cc
+///@brief Implementation of functions for College class
+///@author Corbin Dotson
+
 //********************
 //Matthew Aberegg
 //Project 3
@@ -11,6 +15,8 @@
 #include<string>
 using namespace std;
 
+/// Constructor for the College class
+/// @param s is assigned to name of the college
 College::College(std::string s){
 	name = s;
 	head = NULL;
@@ -26,6 +32,8 @@ College::~College(){
 	}
 }
 
+/// Copy constructor for the College class
+/// @param other is the College which is to be copied
 College::College(const College& other){
 	if(other.head == NULL){
 		head = NULL;
@@ -144,7 +152,9 @@ void College::display(std::ostream& outs){
 	outs << "\n";
 }
 
-
+/// Finds out how many hours are being taken at a College. (?)
+/// Takes no arguments.
+/// @return double, the number of hours
 double College::hours(){
 	node * ptr;
 	ptr = head;
